@@ -1,16 +1,18 @@
-# Penvire Lab client
+# Penvire Lab clients
 
 > **Penvire Lab** is a learning project. It never runs in production and never holds real data. Lab and product share no code.
 
 **Status:** not started yet.
 
-User interfaces for Penvire Lab.
+User-facing apps for Penvire Lab, all logging in through the lab BFF.
 
 ## What goes here
 
-- The web UI, logging in through the lab BFF
-- The shared theme package used by the UI and the lab's login pages (planned: `@penvire-lab/theme`)
-- Later: mobile clients
+- `apps/web`: React web UI
+- `apps/desktop`: Electron desktop app
+- `apps/ios`: iOS app
+- `apps/android`: Android app
+- The shared theme package used by the apps and the lab's login pages (planned: `@penvire-lab/theme`)
 
 ## Related
 
