@@ -4,7 +4,7 @@
 
 **Status:** not started yet.
 
-User-facing apps for Penvire Lab, all logging in through the lab BFF.
+User-facing apps for Penvire Lab. The web and desktop apps sign in through the lab BFF; the iOS and Android apps sign in with Identity and call the public API directly ([ADR 0002](https://github.com/Penvire/penvire-lab-backend/blob/main/docs/adr/0002-client-access-through-bff-and-public-api.md)).
 
 ## What goes here
 
